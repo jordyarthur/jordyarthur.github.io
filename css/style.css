@@ -504,6 +504,14 @@ form .form-control {
     float: right;
 }
 
+.navbar-brand {
+      color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
 .navbar-nav>li>a {
     color: #fff;
     font-size: 15px;
