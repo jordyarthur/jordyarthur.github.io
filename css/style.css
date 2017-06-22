@@ -506,7 +506,7 @@ form .form-control {
 
 .navbar-brand {
       color: #fff;
-    font-size: 15px;
+    font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;
@@ -521,7 +521,9 @@ form .form-control {
 }
 
 .navbar-nav>li>a:hover,
-.navbar-nav>li>a:focus {
+.navbar-nav>li>a:focus, 
+.navbar-brand:hover, 
+.navbar-brand:focus {
     background: none;
     color: #34c6d3;
 }
