@@ -129,6 +129,22 @@
 
 @media (max-width: 480px) {
     /* OK */
+    #home-cover {
+  /*height: 100%;
+  background-image: url("../img/bg-home3.jpg");
+   background-image: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;*/
+  height: 100%; 
+  width: 100%;
+  object-fit: contain;
+
+}
+
+#about-bg-diagonal {
+  height: 100%; 
+  width: 100%;
+  object-fit: contain;
 }
 
 
