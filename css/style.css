@@ -177,16 +177,18 @@ html, body {
                 ABOUT
 ===========================================================*/
 #about-bg-diagonal {
-
+/*
   width: 60%;
   height: 700px;
   float: right;
-  background-image: url(../img/bg-about2.jpg);
+  background: url(../img/bg-about2.jpg) no-repeat center center;
   border-left: 200px solid #fff;
   border-top: 700px solid transparent;
-  background-image: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  background-size: cover; */
+  background: url(../img/bg-about2.jpg);
+  height: 100%; 
+  width: 100%;
+  object-fit: contain;
 }
 
 #about-content-box {
