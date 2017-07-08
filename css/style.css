@@ -41,6 +41,9 @@ html, body {
   background: url("../img/bg-home3.jpg") no-repeat center center;
   background-size: cover;
 
+  height: 100%;
+  background-image: url("../img/bg-home2.jpg");
+
 }
 
 #home-content-box {
@@ -178,7 +181,7 @@ html, body {
 #about-bg-diagonal {
 
   width: 60%;
-  height: 700px;
+  height: 400px;
   float: right;
   background: url(../img/bg-about2.jpg) no-repeat center center;
   background-size: cover;
@@ -222,6 +225,7 @@ html, body {
 .row.no-gutters [class*=col-] {
   padding-left: 0;
   padding-right: 0;
+  
 }
 
 .img-wrapper {
