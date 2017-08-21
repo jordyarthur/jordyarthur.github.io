@@ -45,7 +45,7 @@ html, body {
   margin: auto;
   background: url("../img/bg-home1.jpg") no-repeat 50% 50%;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: auto;
 } 
 
 #home-content-box {
