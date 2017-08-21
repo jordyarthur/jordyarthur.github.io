@@ -39,11 +39,14 @@ html, body {
 }
 
 #home-cover {
-  
-  height: 100%;
-  background-image: url("../img/bg-home1.jpg");
 
-}
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background: url("../img/bg-home1.jpg") no-repeat 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+} 
 
 #home-content-box {
   width: 100%;
