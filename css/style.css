@@ -43,7 +43,7 @@ html, body {
   height: 100%;
   width: 100%;
   margin: auto;
-  background: url("https://static.pexels.com/photos/248159/pexels-photo-248159.jpeg") no-repeat 50% 50%;
+  background: url("../img/bg-home1.jpg") no-repeat 50% 50%;
   background-size: cover;
 
 } 
